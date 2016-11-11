@@ -1,0 +1,231 @@
+div,body,span,a,p,ul,li,h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+}
+body{
+	width:100%;
+	height:100%;
+	background: #EDEDED;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+#header_w{
+	width:100%;
+	height:auto;
+	background: url(https://image2.ewj.com/2015/2/2/50394.png) repeat-x;
+}
+#header{
+	width:1190px;
+	height:124px;
+	margin:0 auto;
+	overflow: hidden;
+}
+#header .header_body{
+	width:1190px;
+	height:99px;
+	margin-top: 8px;
+	padding-top: 3px;
+}
+#header .header_body .logo a{
+	display: block;
+	width:341px;
+	height:74px;
+	margin-top: 22px;
+	float: left;
+	background-image:url(http://image1.ewj.com/2015/7/3/4312385.png) ;
+}
+#header .header_body .help{
+	width:242px;
+	height:47px;
+	float: right;
+	margin:17px 100px 0 0;
+}
+#header .header_body .help .welcome{
+	width:242px;
+	height:17px;
+	margin-top:30px;
+}
+#header .header_body .help .welcome{
+	font-size:12px;
+	color: #666;;
+}
+#header .header_body .help .welcome span{
+	padding:0 14px;
+}
+#header .header_body .help .welcome a{
+	color:#666;
+}
+#header .header_body .help .welcome a:hover{
+	color:#E14041;
+}
+#login_w{
+	width:100%;
+	height:auto;
+	background: #ededed;
+	padding-top:40px;
+}
+#login{
+	width:1190px;
+	height:426px;
+	background: #fff;
+	margin:0 auto;
+	overflow: hidden;
+}
+#login .login_header{
+	width:1130px;
+	height:45px;
+	padding:0 30px;
+}
+#login .login_header h4{
+	font-size:16px;
+	color: #333;
+	font-weight: normal;
+	display: inline-block;
+	float:left;
+	height:45px;
+	line-height: 45px;
+}
+#login .login_header a{
+	display: inline-block;
+	font-size: 16px;
+	color:#e04040;
+	float:right;
+	height:45px;
+	line-height: 45px;
+	text-decoration: underline;
+}
+#login{
+	background: #fff;
+	min-height:381px;
+	height:auto;
+}
+#login .login_body{
+	width:1100px;
+	min-height:301px;
+	padding:35px 45px 45px;
+	background: #fff url(http://image2.ewj.com/2015/2/2/50432.png) repeat-x;
+	position: relative;
+}
+#login .login_body #ad{
+	display: block;
+	position: absolute;
+	background: url(http://image2.ewj.com/2016/9/8/15221153.jpg) no-repeat 0px 0px;
+	width:370px;
+	height:320px;
+	left:100px;
+	top:30px;
+}
+#login .login_body .login_mes{
+	width:545px;
+	min-height:281px;
+	padding:0 0 10px 335px;
+	margin:10px 0 0 200px;
+}
+#login .login_body .login_mes #sp1,#login .login_body .login_mes #sp2,#login .login_body .login_mes #sp3{
+	margin-left:10px;
+	color:#e14041;
+	display: block;
+	font-size: 14px;
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+#login .login_body .login_mes p{
+	margin-top: 10px;
+}
+#login .login_body .login_mes p label{
+	margin-left: -155px;
+	margin-right:10px;
+	display: inline-block;
+	width:145px;
+	text-align: right;
+	font-size:14px;
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+#login .login_body .login_mes p input{
+	width:373px;
+	height:20px;
+	padding:15px;
+	font-size: 14px;
+    color: #aaa;
+    background: #fff;
+    border: 1px solid #dadada;
+    outline-color: #E04040;
+}
+#login .login_body .login_mes p #yanzhengma{
+	width:157px;
+	height:20px;
+	padding:11px 15px;
+}
+#login .login_body .login_mes p span{
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	cursor: pointer;
+}
+#login .login_body .login_mes p span:hover{
+	text-decoration: underline;
+}
+#login .login_body .login_mes p i{
+	display:inline-block;
+	width:13px;
+	height:13px;
+	background: #fff;
+	/*url(http://image1.ewj.com/2015/2/2/50377.png) no-repeat center center;*/
+	border: 1px solid #cfcfcf;
+	cursor: pointer;
+	float:left;
+}
+#login .login_body .login_mes p .sure{
+	background:url(http://image1.ewj.com/2015/2/2/50377.png) no-repeat center center;
+}
+#login .login_body .login_mes p a{
+	float: right;
+    color: #1f589d;
+    text-decoration: underline;
+}
+#login .login_body .login_mes p a:hover{
+	color:#F3484A;
+}
+#login .login_body .login_mes p #login_btn{
+	width:405px;
+	height:49px;
+	margin-left: 10px;
+	padding:0;
+	color: #fff;
+    font-size: 24px;
+    background: #e04040;
+    display: inline-block;
+    line-height: 49px;
+    border-top: 1px #f0a0a0 solid;
+    border-bottom: 1px #c11f1f solid;
+    text-align: center;
+    cursor: pointer;
+}
+#login .login_body .login_mes p #login_btn:hover{
+	background: #FF5758;
+}
+#reg_footer{
+	width:1190px;
+	height:87px;
+	margin:0 auto;
+	padding-bottom: 50px;
+}
+#reg_footer .footer{
+	width:790px;
+	height:21px;
+	margin-top: 66px;
+	padding:0 200px;
+}
+#reg_footer .footer a{
+	padding:0 8px;
+	width:auto;
+	display: inline;
+	font-size: 16px;
+}
+#reg_footer .footer a:hover{
+	color:#f3484a;
+	text-decoration: underline;
+}
+#reg_footer .footer h4{
+	display: inline-block;
+}

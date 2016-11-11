@@ -1,0 +1,687 @@
+/*通配*/
+div,img,body,a,span,ul,li,p,dl,dd,dt,h2,h3,h4,h5{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+body{
+	width:100%;
+	height:auto;
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	background: #EDEDED;
+}
+/*头部样式*/
+#header_ad_w #header_w{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+#header_ad{
+	width:100%;
+}
+img{
+	width:100%;
+	display: block;
+	border-bottom:3px solid #eee ;
+}
+#header_w{
+	
+	background: url(http://image1.ewj.com/2015/5/25/3020005.png) repeat-x;
+}
+#header{
+	width:1190px;
+	height:138px;
+	margin:0 auto;
+}
+/*一级菜单样式*/
+#littlenav{
+	width:1190px;
+	height:18px;
+	padding-top:8px;
+}
+.littlenav_1{
+	min-width:247px;
+	height:17px;
+	float:left;
+	font-size: 12px;
+}
+.name1{
+	color: #e14041;
+}
+.littlenav_1 a{
+	display: inline-block;
+	width:45px;
+	height:17px;
+	text-align: center;
+	line-height: 17px;
+}
+.littlenav_1 a:hover{
+	color:#E14041;
+}
+.littlenav_1_1{
+	min-width:247px;
+	height:17px;
+	float:left;
+	font-size: 12px;
+	display:none;
+}
+.littlenav_1_1 .out_num{
+	cursor: pointer;
+}
+.littlenav_1_1 .out_num:hover{
+	color:#E14041;
+}
+.name1{
+	color: #e14041;
+}
+.littlenav_1_1 a{
+	display: inline-block;
+	min-width:45px;
+	height:17px;
+	text-align: center;
+	line-height: 17px;
+	padding:0 10px;
+}
+.littlenav_1_1 a:hover{
+	color:#E14041;
+}
+/**/
+.littlenav_2{
+	height:18px;
+	float:right;
+	font-size: 12px;
+}
+.littlenav_2 ul li{
+	float:left;
+}
+.littlenav_2 ul li a{
+	display: inline-block;
+	padding:0 20px;
+}
+.littlenav_2 a:hover{
+	color:#E14041;
+}
+.littlenav_2 ul li a img{
+	width:22px;
+	height:15px;
+	margin:0 5px -3px 5px;
+	float:left;
+}
+#header_body{
+	width:1190px;
+	height:71px;
+	padding-top:3px;
+	margin-top: 15px;
+	position: relative;
+}
+#header_body .logo{
+	float:left;
+}
+#header_body .logo img{
+	width:341px;
+	height:71px;
+}
+#header_body .step{
+	position: relative;
+    float: right;
+    margin-top: 28px;
+}
+#header_body .step li{
+	float: left;
+    white-space: nowrap;
+    position: relative;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#header_body .step li .line{
+	background-color: #d1d1d1;
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+}
+#header_body .step li .radius{
+	background-position: 0 0;
+	position: absolute;
+    width: 28px;
+    height: 28px;
+    top: -14px;
+    left: 50%;
+    margin-left: -14px;
+    background: url(http://image1.ewj.com/2015/2/2/50461.png) no-repeat 0 -28px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+}
+#header_body .step li .title{
+	margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    min-width: 175px;
+    float: left;
+    text-align: center;
+}
+#header_body .step li .active{
+	background-color: #79b235;
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    color: #79B235;
+}
+#header_body .step li .active1{
+	position: absolute;
+    width: 28px;
+    height: 28px;
+    top: -14px;
+    left: 50%;
+    margin-left: -14px;
+    background: url(http://image1.ewj.com/2015/2/2/50461.png) no-repeat 0 0px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+}
+#header_body .step li .active2{
+	color: #79B235;
+}
+/*购物车白条*/
+#tishi_w{
+	width:100%;
+    margin: 38px 0 20px 0;
+}
+#tishi{
+	width:1190px;
+	height:45px;
+	line-height: 45px;
+	margin:0 auto;
+	background: #fff;
+}
+#tishi .title{
+	float: left;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #333;
+}
+#tishi .but{
+	float: right;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #aaa;
+    cursor: pointer;
+}
+#tishi .but:hover{
+	color: #e14041;
+}
+/*主体*/
+#body{
+	width:100%;
+	height:auto;
+}
+/*主体1*/
+#body_1{
+	width:860px;
+	margin:0 auto;
+	padding: 94px 0 65px 330px;
+	height:116px;
+	display: none;
+}
+#body_1 img{
+	float: left;
+	width:66px;
+	height:61px;
+}
+#body_1 .choose{
+	float: left;
+	margin-left: 35px;
+	margin-top: 5px;
+}
+#body_1 .choose dl dt{
+	color: #e14041;
+	font-size: 18px;
+}
+#body_1 .choose dl dd{
+	font-size: 14px;
+	color: #999;
+}
+#body_1 .choose dl dd a{
+	text-decoration: underline;
+	color: #1e589c;
+	cursor: pointer;
+}
+#body_1 .choose .or{
+	margin-top: 25px;
+}
+#body_1 .choose .or .login{
+	display: inline-block;
+	width:32px;
+	height: 35px;
+    line-height: 35px;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #fff;
+    background: #e14041;
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #f0a0a0;
+    border-bottom: 1px solid #c21f1f;
+    margin-right: 5px;
+}
+#body_1 .choose .or .login:hover{
+	color: #fff;
+    background: #ff5758;
+    border-top: 1px solid #f0a0a0;
+    border-bottom: 1px solid #c21f1f;
+}
+#body_1 .choose .or .goshop{
+	background: url("http://image1.ewj.com/2015/2/2/50365.jpg") repeat-x;
+	display: inline-block;
+	height: 35px;
+    line-height: 35px;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #d1d1d1;
+    
+}
+#body_1 .choose .or .goshop:hover{
+	color: #e04040;
+    border-color: #e04040;
+}
+/*主体2*/
+#body_2{
+	width: 1190px;
+    margin: 15px auto;
+    padding-top:15px;
+    display:none;
+}
+#body_2 .detail{
+	width: 100%;
+    background-color: #fff;
+    line-height: 45px;
+    height: 45px;
+    font-size: 14px;
+   
+}
+#body_2 .detail .message{
+	float: left;
+    margin-left: 25px;
+    font-size: 16px;
+    color: #fb000a;
+    font-weight: bold;
+    line-height: 45px;
+}
+#body_2 .detail_title{
+	background-color: #fff9f9;
+	width: 100%;
+    border-bottom: 1px solid #ededed;
+    line-height: 45px;
+    height:45px;
+}
+#body_2 .detail_title .ld1{
+	width: 130px;
+    margin-left: 25px;
+    float: left;
+    color: #333;
+    font-size: 14px;
+    line-height: 45px;
+}
+#body_2 .detail_title .ld1 i{
+	display: inline-block;
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #cfcfcf;
+}
+#body_2 .detail_title .ld1 .allcheck{
+	display: inline-block;
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: url("http://image1.ewj.com/2015/2/2/50377.png") no-repeat center center;
+    border: 1px solid #cfcfcf;
+}
+#body_2 .detail_title .ld2{
+	width: 249px;
+    padding: 0 0 0 16px;
+    text-align: center;
+    float: left;
+    color: #333;
+    font-size: 14px;
+}
+#body_2 .detail_title .ld3{
+	width: 185px;
+    text-align: center;
+    margin-left: 10px;
+    float: left;
+    color: #333;
+    font-size: 14px;
+}
+#body_2 .detail_title .ld4{
+	width: 113px;
+    text-align: center;
+    float: left;
+    color: #333;
+    font-size: 14px;
+    line-height: 45px;
+}
+#body_2 .detail_title .ld5{
+	width: 138px;
+    margin-left: 17px;
+    text-align: center;
+    float: left;
+    color: #333;
+    font-size: 14px;
+    line-height: 45px;
+}
+#body_2 .detail_title .ld6{
+	width: 160px;
+    text-align: center;
+    float: left;
+    color: #333;
+    font-size: 14px;
+    line-height: 45px;
+}
+#body_2 .detail_title .ld7{
+	padding: 0 0 0 7px;
+	width: 140px;
+	float: left;
+    color: #333;
+    font-size: 14px;
+    line-height: 45px;
+}
+#body_2 .splist{
+	width:100%;
+	background: #fff;
+}
+#body_2 .splist li{
+	background: #FFF9F9;
+	padding: 10px 0;
+    line-height: 98px;
+    width: 100%;
+    border-bottom: 1px solid #e4e4e4;
+    font-size:14px;
+    height:98px;
+}
+#body_2 .splist li .ld1{
+	width: 130px;
+    margin-left: 25px;
+    float: left;
+    color: #333;
+    font-size: 14px;
+    
+}
+#body_2 .splist li .ld1 i{
+	display: inline-block;
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #cfcfcf;
+}
+#body_2 .splist li .ld1 .allcheck{
+	display: inline-block;
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: url("http://image1.ewj.com/2015/2/2/50377.png") no-repeat center center;
+    border: 1px solid #cfcfcf;
+}
+#body_2 .splist li .ld1 .img{
+	width:90px;
+	height:90px;
+	float:left;
+}
+#body_2 .splist li .ld2{
+	margin-left: 9px;
+	width: 256px;
+	float: left;
+    color: #333;
+    font-size: 14px;
+}
+#body_2 .splist li .ld2 a{
+	cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 19px;
+    width: 245px;
+    word-break: break-all;
+}
+#body_2 .splist li .ld3{
+	width: 185px;
+    text-align: center;
+    margin-left: 10px;
+    float: left;
+    color: #333;
+    font-size: 14px;
+    height:90px;
+}
+#body_2 .splist li .ld4{
+	width: 113px;
+    text-align: center;
+    float: left;
+    color: #333;
+    font-size: 14px;
+    line-height: 90px;
+}
+#body_2 .splist li .ld5{
+	width: 138px;
+    margin-left: 17px;
+    text-align: center;
+    float: left;
+    color: #333;
+    font-size: 14px;
+    line-height: 90px;
+}
+#body_2 .splist li .ld5 span{
+	cursor: pointer;
+}
+#body_2 .splist li .ld5 #num{
+	border: 1px solid #d1d1d1;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 10px;
+    text-align: center;
+    width: 50px;
+    outline: none;
+}
+#body_2 .splist li .ld6{
+	font-size: 18px;
+	width: 160px;
+    text-align: center;
+    float: left;
+    color: #333;
+    line-height: 90px;
+}
+#body_2 .splist li .ld7{
+    padding: 0 0 0 7px;
+   	width: 140px;
+   	float: left;
+    color: #333;
+    font-size: 14px;
+    line-height: 90px;
+}
+#body_2 .splist li .ld7 span:hover{
+	color: #e14041;
+	cursor: pointer;
+}
+#body_2 #money{
+	width:1190px;
+	height:74px;
+	background: #fff;
+	margin-top:30px;
+}
+#body_2 #money .float1{
+	padding-left: 25px;
+	float:left;
+	line-height: 30px;
+}
+#body_2 #money .float1 i{
+	width:13px;
+	height:13px;
+	background: #fff;
+	display: inline-block;
+    vertical-align: top;
+    border: 1px solid #cfcfcf;
+    margin-top:10px;
+    cursor: ;
+}
+#body_2 #money .float1 .allcheck{
+	width:13px;
+	height:13px;
+	background: url("http://image1.ewj.com/2015/2/2/50377.png") no-repeat center center;
+	display: inline-block;
+    vertical-align: top;
+    border: 1px solid #cfcfcf;
+    margin-top:10px;
+}
+#body_2 #money .float2{
+	float:right;
+	line-height: 30px;
+	height:74px;
+	
+}
+#body_2 #money .float2 .pay{
+	display: inline-block;
+    margin: 10px 10px 0 40px;
+    font-size: 14px;
+    text-align: right;
+    line-height: 30px;
+}
+#body_2 #money .float2 a{
+	display: block;
+	background-color: #e14041;
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    margin-left: 0px;
+    padding: 0 42px;
+    cursor: pointer;
+    height: 74px;
+    line-height: 74px;
+}
+#body_2 #money .float2 a:hover{
+	background: #fe7171;
+}
+/*主体3*/
+#body_3{
+	width:860px;
+	margin:0 auto;
+	padding: 94px 0 65px 330px;
+	height:116px;
+	display: none;
+}
+#body_3 img{
+	float: left;
+	width:66px;
+	height:61px;
+}
+#body_3 .choose{
+	float: left;
+	margin-left: 35px;
+	margin-top: 5px;
+}
+#body_3 .choose dl dt{
+	color: #e14041;
+	font-size: 18px;
+}
+#body_3 .choose dl dd{
+	font-size: 14px;
+	color: #999;
+}
+#body_3 .choose dl dd a{
+	text-decoration: underline;
+	color: #1e589c;
+	cursor: pointer;
+}
+#body_3 .choose .or{
+	margin-top: 25px;
+}
+#body_3 .choose .or .login{
+	display: inline-block;
+	width:32px;
+	height: 35px;
+    line-height: 35px;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #fff;
+    background: #e14041;
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #f0a0a0;
+    border-bottom: 1px solid #c21f1f;
+    margin-right: 5px;
+}
+#body_3 .choose .or .login:hover{
+	color: #fff;
+    background: #ff5758;
+    border-top: 1px solid #f0a0a0;
+    border-bottom: 1px solid #c21f1f;
+}
+#body_3 .choose .or .goshop{
+	background: url("http://image1.ewj.com/2015/2/2/50365.jpg") repeat-x;
+	display: inline-block;
+	height: 35px;
+    line-height: 35px;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #d1d1d1;
+    
+}
+#body_3 .choose .or .goshop:hover{
+	color: #e04040;
+    border-color: #e04040;
+}
+
+
+
+
+
+/*底部*/
+#reg_footer{
+	width:1190px;
+	height:22px;
+	margin:50px auto;
+	text-align: center;
+}
+#reg_footer .footer_last{
+	width:1190px;
+	height:21px;
+	margin-top: 5px;
+}
+#reg_footer .footer_last a{
+	padding:0 16px;
+	width:auto;
+	display: inline;
+	font-size: 16px;
+}
+#reg_footer .footer_last a:hover{
+	color:#f3484a;
+	text-decoration: underline;
+}
+#reg_footer .footer_last h4{
+	display: inline-block;
+	color: #848484;
+    font-size: 16px;
+    margin: 0 0 0 60px;
+    font-weight: normal;
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的购物车 - e万家</title>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/shopcar.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<link rel="stylesheet"	type="text/css" href="css/shopcar.css"/>
+		<link rel="shortcut icon" href="img/titlelogo.ico" type="image/x-icon">
+	</head>
+	<body>
+		<div id="header_w">
+			<div id="header">
+				<div id="littlenav">
+					<div class="littlenav_1">
+						<span class="user">您好</span><span>欢迎来<span class="name1">e万家</span>！</span>
+						<a href="login.html" target="_blank">登录</a>|<a href="register.html" target="_self">注册</a>
+					</div>
+					<div class="littlenav_1_1">
+						<span class="user2"></span><span>,欢迎来<span class="name1">e万家</span>！</span> <span class="out_num"> 退出 </span>
+						<a href="login.html" target="_blank"> 我的优惠券 </a>  |  <a href="register.html" target="_self"> 我的订单 </a>
+					</div>
+					<div class="littlenav_2">
+						<ul>
+							<li><a href="#" target="_blank">收藏夹</a>|</li>
+							<li><a href="#" target="_blank">我的订单</a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="header_body">
+					<a class="logo" href="index.html" target="_self"><img src="http://image1.ewj.com/2015/7/3/4312385.png"/></a>
+					<ul class="step">
+						<li>
+							<div class="line active"></div>
+							<div class="radius active1">1</div>
+							<span class="title active2">购物车</span>
+						</li>
+						<li>
+							<div class="line"></div>
+							<div class="radius">2</div>
+							<span class="title">确认订单信息</span>
+						</li>
+						<li>
+							<div class="line"></div>
+							<div class="radius">3</div>
+							<span class="title">提交订单</span>
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+		<div id="tishi_w">
+			<div id="tishi">
+				<span class="title">购物车</span>
+				<a class="but" href="index.html">继续购物 &gt;</a>
+			</div>
+		</div>
+			
+		<div id="body">
+			<!--主体1-->
+			<div id="body_1">
+				<img src="http://image1.ewj.com/2015/2/2/50375.png"/>
+				<div class="choose">
+					<dl>
+						<dt>温馨提示！</dt>
+						<dd>购物车内暂时没有您的商品 , <a href="login.html">登录</a>后，将显示您之前加入的商品</dd>
+					</dl>
+					<div class="or">
+						<a href="login.html" class="login">登录</a>
+						<a href="index.html" class="goshop">继续购物</a>
+					</div>
+				</div>
+			</div>
+			
+			<!--主体2-->
+			<div id="body_2">
+				<div class="detail">
+					<span class="message">全部商品<span class="num1">0</span>件</span>
+					<div class="addres" style="float:right;margin-right:10px">
+						<span>配送至</span>
+						<select>
+							<option>广东省-深圳市-南山区</option>
+						</select>
+					</div>
+				</div>
+				<div class="detail_title">
+					<div class="ld1">
+						<div style="height:45px">
+							<i></i>
+							全选
+						</div>
+					</div>
+					<div class="ld2">
+						商品
+					</div>
+					<div class="ld3">
+						规格属性
+					</div>
+					<div class="ld4">
+						单价（元）
+					</div>
+					<div class="ld5">
+						数量
+					</div>
+					<div class="ld6">
+						商品小计
+					</div>
+					<div class="ld7">
+						操作
+					</div>
+				</div>
+				<ul class="splist">
+					<!--<li>
+						<div class="ld1">
+							<div style="height:98px;float: left;">
+								<i></i>
+							</div>
+							<div class="img">
+								<img src="http://image1.ewj.com/2016/3/9/11880425_90X90.jpg" />
+							</div>
+						</div>
+						<div class="ld2">
+							<a href="javascript:;">【全国配送】小萌羊 180天羔羊精肉 400g</a>
+						</div>
+						<div class="ld3">
+							
+						</div>
+						<div class="ld4">
+							￥<span>58</span>
+						</div>
+						<div class="ld5">
+							<span class="jian"> - </span>
+							<input type="text" value="1" id="num" />
+							<span class="jia"> + </span>
+						</div>
+						<div class="ld6">
+							￥<span>58</span>
+						</div>
+						<div class="ld7">
+							<span class="del">删除</span>
+						</div>
+					</li>
+					<li>
+						<div class="ld1">
+							<div style="height:98px;float: left;">
+								<i></i>
+							</div>
+							<div class="img">
+								<img src="http://image1.ewj.com/2016/3/9/11880425_90X90.jpg" />
+							</div>
+						</div>
+						<div class="ld2">
+							<a href="javascript:;">【全国配送】小萌羊 180天羔羊精肉 400g</a>
+						</div>
+						<div class="ld3">
+							
+						</div>
+						<div class="ld4">
+							￥<span>64</span>
+						</div>
+						<div class="ld5">
+							<span class="jian"> - </span>
+							<input type="text" value="1" id="num" />
+							<span class="jia"> + </span>
+						</div>
+						<div class="ld6">
+							￥<span>64</span>
+						</div>
+						<div class="ld7">
+							<span class="del">删除</span>
+						</div>
+					</li>-->
+				</ul>
+				<div id="money">
+					<div class="float1">
+						<div style="font-size: 14px;margin-right:20px;float: left;">
+							<i></i>
+							全选
+						</div>
+						<span style="font-size:14px">已经选中<span class="checknumber" style="color: #fb000a;font-size:16px"> 0 </span>件商品</span>
+					</div>
+					<div class="float2">
+						<div class="pay">
+							<span>商品总额：</span>
+							¥<span class="price">0</span>.00
+							<span>优惠：</span>
+							<em>-¥0.00</em>
+							<p>合计（不含运费）：<span style="color:#E04040;font-size:18px">¥<span class="price">0</span>.00</span></p>
+						</div>
+						<a href="javascript:;">结算</a>
+					</div>
+				</div>
+			</div>
+		</div> 
+		<!--
+        	作者：903054278@qq.com
+        	时间：2016-09-21
+        	描述：主体3
+        -->
+		<div id="body_3">
+			<img src="http://image1.ewj.com/2015/2/2/50375.png"/>
+			<div class="choose">
+				<dl>
+					<dt>温馨提示！</dt>
+					<dd>购物车内暂时没有您的商品 </dd>
+				</dl>
+				<div class="or">
+					<a href="index.html" class="goshop">继续购物</a>
+				</div>
+			</div>
+		</div>
+		<div id="reg_footer">
+			<div class="footer_last">
+				<span>
+					<a href="#" target="_blank">关于我们</a><span>|</span><a href="#" target="_blank">联系我们</a><span>|</span><a href="#" target="_blank">触屏版</a>
+				</span>
+				<h4>Copyright@华润万家有限公司  粤ICP备05036369号-4   ewj.com 版权所有</h4>
+			</div>
+		</div>
+	</body>
+</html>
